@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.7fr 3fr 0.2fr;
+  height: 100vh;
+}
+
+nav {
+  background-color: aquamarine;
+  grid-row: 1 / 5;
+}
+
+header {
+  background-color: pink;
+}
+
+main {
+  background-color: lightyellow;
+  grid-column-start: 2;
+}
+
+footer {
+  background-color: lavender;
+  grid-column-end: 3;
+}
